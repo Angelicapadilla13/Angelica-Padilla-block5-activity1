@@ -25,6 +25,19 @@
         tools:layout_editor_absoluteX="91dp"
         tools:layout_editor_absoluteY="-124dp" />
 
+    <TextView
+        android:layout_width="172dp"
+        android:layout_height="66dp"
+        android:fontFamily="georgia"
+        android:text="CheckMate"
+        android:textColor="#FF5768"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="320dp" />
+
+
 
     <Button
         android:id="@+id/button2"
