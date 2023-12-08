@@ -25,29 +25,6 @@
         tools:layout_editor_absoluteX="91dp"
         tools:layout_editor_absoluteY="-124dp" />
 
-    <TextView
-        android:layout_width="172dp"
-        android:layout_height="66dp"
-        android:fontFamily="georgia"
-        android:text="CheckMate"
-        android:textColor="#FF5768"
-        android:textSize="30sp"
-        android:textStyle="bold|italic"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="119dp"
-        tools:layout_editor_absoluteY="320dp" />
-
-    <EditText
-        android:id="@+id/editTextText2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="Username"
-        android:inputType="text"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="100dp"
-        tools:layout_editor_absoluteY="419dp" />
-
 
     <Button
         android:id="@+id/button2"
@@ -58,16 +35,7 @@
         tools:layout_editor_absoluteX="161dp"
         tools:layout_editor_absoluteY="569dp" />
 
-    <EditText
-        android:id="@+id/editTextTextPassword2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="Password"
-        android:inputType="textPassword"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="100dp"
-        tools:layout_editor_absoluteY="496dp" />
+
 
     <TextView
         android:id="@+id/textView3"
