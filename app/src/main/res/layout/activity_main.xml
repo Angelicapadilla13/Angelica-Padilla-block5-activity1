@@ -37,6 +37,16 @@
         tools:layout_editor_absoluteX="119dp"
         tools:layout_editor_absoluteY="320dp" />
 
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="text"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="419dp" />
 
 
     <Button
