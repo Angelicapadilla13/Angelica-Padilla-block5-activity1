@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ange"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="267dp"
+        android:layout_height="587dp"
+        app:srcCompat="@drawable/ga"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="-124dp" />
+
+    <TextView
+        android:layout_width="172dp"
+        android:layout_height="66dp"
+        android:fontFamily="georgia"
+        android:text="CheckMate"
+        android:textColor="#FF5768"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="320dp" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="text"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="419dp" />
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="569dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="496dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign up"
+        android:textColor="#FF1493"
+        android:textSize="17sp"
+        android:textStyle="bold|italic"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="177dp"
+        tools:layout_editor_absoluteY="650dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
